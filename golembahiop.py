@@ -8,10 +8,10 @@ import os
 from keep_alive import keep_alive
 keep_alive()
 # insert your Telegram bot token here
-bot = telebot.TeleBot('7909008631:AAH6yamFOUaacORTKXFp-vv-KrUQR4_A')
+bot = telebot.TeleBot('7600216484:AAF6y94jY_3hkC8jXb_mko6MMasUIEi8tkc')
 
 # Admin user IDs
-admin_id = ["7584228621"]
+admin_id = ["7777686935"]
 
 # File to store allowed user IDs
 USER_FILE = "users.txt"
@@ -153,7 +153,7 @@ def add_user(message):
         else:
             response = "Please specify a user ID and the duration (e.g., 1hour, 2days, 3weeks, 4months) to add 😘."
     else:
-        response = " ʙᴜʏ ᴋʀᴏ :- @GOLEM_OWNER ❄."
+        response = " ʙᴜʏ ᴋʀᴏ :- @VIPERx0WNER ❄."
 
     bot.reply_to(message, response)
 
@@ -189,7 +189,7 @@ def remove_user(message):
             response = '''Please Specify A User ID to Remove. 
 ✅ Usage: /remove <userid>😘'''
     else:
-        response = "ʙᴜʏ ᴋʀᴏ :- @GOLEM_OWNER ❄"
+        response = "ʙᴜʏ ᴋʀᴏ :- @VIPERx0WNER ❄"
 
     bot.reply_to(message, response)
 
@@ -208,7 +208,7 @@ def clear_logs_command(message):
         except FileNotFoundError:
             response = "Logs are already cleared ❌."
     else:
-        response = "ʙᴜʏ ᴋʀᴏ :- @GOLEM_OWNER ❄"
+        response = "ʙᴜʏ ᴋʀᴏ :- @VIPERx0WNER ❄"
     bot.reply_to(message, response)
 
 
@@ -227,7 +227,7 @@ def clear_users_command(message):
         except FileNotFoundError:
             response = "users are already cleared ❌."
     else:
-        response = "ʙᴜʏ ᴋʀᴏ :- @GOLEM_OWNER ❄"
+        response = "ʙᴜʏ ᴋʀᴏ :- @VIPERx0WNER ❄"
     bot.reply_to(message, response)
  
 
@@ -252,7 +252,7 @@ def show_all_users(message):
         except FileNotFoundError:
             response = "No data found ❌"
     else:
-        response = "ʙᴜʏ ᴋʀᴏ :- @GOLEM_OWNER ❄"
+        response = "ʙᴜʏ ᴋʀᴏ :- @VIPERx0WNER ❄"
     bot.reply_to(message, response)
 
 @bot.message_handler(commands=['logs'])
@@ -270,7 +270,7 @@ def show_recent_logs(message):
             response = "No data found ❌"
             bot.reply_to(message, response)
     else:
-        response = "ʙᴜʏ ᴋʀᴏ :- @GOLEM_OWNER ❄"
+        response = "ʙᴜʏ ᴋʀᴏ :- @VIPERx0WNER ❄"
         bot.reply_to(message, response)
 
 
@@ -320,7 +320,7 @@ def handle_bgmi(message):
         else:
             response = "✅ Usage :- /bgmi <target> <port> <time>"  # Updated command syntax
     else:
-        response = ("🚫 Unauthorized Access! 🚫\n\nJOIN BOTH CHANNELS TO GET FREE OR PAID ACCES \n\n @golemhacks AND @golemfeedbacks \n\n NOW SEND YOUR USER ID TO @GOLEM_OWNER FOR APPROVAL ")
+        response = ("🚫 Unauthorized Access! 🚫\n\n BUY PAID ACCESS FROM @VIPERx0WNER \n\n  \n\n  ")
 
     bot.reply_to(message, response)
 
@@ -357,7 +357,7 @@ def show_help(message):
 🤖 To See Admin Commands:
  /admincmd : Shows All Admin Commands.
 
-Buy From :- @GOLEM_OWNER
+Buy From :- @VIPERx0WNER
 '''
     for handler in bot.message_handlers:
         if hasattr(handler, 'commands'):
@@ -374,7 +374,7 @@ def welcome_start(message):
     user_name = message.from_user.first_name
     response = f'''❄️ᴡᴇʟᴄᴏᴍᴇ ᴛᴏ ᴘʀᴇᴍɪᴜᴍ ᴅᴅᴏs ʙᴏᴛ, {user_name}! ᴛʜɪs ɪs ʜɪɢʜ ǫᴜᴀʟɪᴛʏ sᴇʀᴠᴇʀ ʙᴀsᴇᴅ ᴅᴅᴏs. ᴛᴏ ɢᴇᴛ ᴀᴄᴄᴇss.
 🤖Try To Run This Command : /help 
-✅BUY :- @GOLEM_OWNER'''
+✅BUY :- @VIPERx0WNER'''
     bot.reply_to(message, response)
 
 @bot.message_handler(commands=['rules'])
@@ -384,14 +384,14 @@ def welcome_rules(message):
 
 1. Dont Run Too Many Attacks !! Cause A Ban From Bot
 2. Dont Run 2 Attacks At Same Time Becz If U Then U Got Banned From Bot.
-3. MAKE SURE YOU JOINED @golemhacks OTHERWISE NOT WORK
+3.
 4. We Daily Checks The Logs So Follow these rules to avoid Ban!!'''
     bot.reply_to(message, response)
 
 @bot.message_handler(commands=['plan'])
 def welcome_plan(message):
     user_name = message.from_user.first_name
-    response = f'''{user_name}, ʙᴜʏ ᴋʀᴏ :- @GOLEM_OWNER ❄
+    response = f'''{user_name}, ʙᴜʏ ᴋʀᴏ :- @VIPERx0WNER ❄
 '''
     bot.reply_to(message, response)
 
